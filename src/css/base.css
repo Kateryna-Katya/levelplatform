@@ -21,4 +21,11 @@ h3{
     font-size: 20px;
     line-height: 1.6;
     color: #f0f6ff;
+    margin-top: 16px;
+}
+@media only screen and (min-width: 1440px) {
+  h3{
+    font-size: 38px;
+      line-height: 1.25;
+  }
 }
