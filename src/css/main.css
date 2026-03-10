@@ -744,6 +744,8 @@ border: 1px solid rgba(255, 255, 255, 0.06);
  .gallery-swiper {
      margin-top: 64px;
     width: 1232px;
+    margin-left: auto;
+    margin-right: auto;
  }
  .gallery-swiper .swiper-wrapper{
         margin-top: 64px;
