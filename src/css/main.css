@@ -587,7 +587,7 @@ background: linear-gradient(180deg, #0a0f1e 0%, #080c14 100%);
 
 /* ДОБАВИЛИ puzzle-pagination */
 .features-pagination .swiper-pagination-bullet,
-.design-pagination .swiper-pagination-bullet{
+.gallery-pagination .swiper-pagination-bullet{
     width: 4px !important;
     height: 4px !important;
     background:rgba(255, 255, 255, 0.6) !important;
@@ -598,7 +598,7 @@ background: linear-gradient(180deg, #0a0f1e 0%, #080c14 100%);
 }
 
 .features-pagination .swiper-pagination-bullet-active,
-.design-pagination .swiper-pagination-bullet-active{
+.gallery-pagination .swiper-pagination-bullet-active{
     width: 6px !important;
     height: 6px !important;
     background: #fff!important;
@@ -714,4 +714,46 @@ width: 366px;
     height: 306px;
     margin-top: 0;
   }
+}
+/* Gallery */
+.gallery-container{
+    padding-top: 50px;
+}
+.gallery-swiper .swiper-slide{
+border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+    padding: 1px;
+    width: 330px;
+  
+    background: #06090f;
+}
+.gallery-slide-text{
+    background: rgba(56, 189, 248, 0.03);
+    border-top: 1px solid rgba(56, 189, 248, 0.13);
+    padding: 9px 12px 9px;
+
+}
+.gallery-swiper{
+    margin-top: 31px;
+}
+@media only screen and (min-width: 1440px) {
+ .gallery-container{
+    padding-left: 80px;
+    padding-right: 80px;
+ }
+ .gallery-swiper {
+     margin-top: 64px;
+    width: 1232px;
+ }
+ .gallery-swiper .swiper-wrapper{
+        margin-top: 64px;
+            width: 1232px;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 16px;
+ }
+ .gallery-swiper .gallery-swiper{
+    width: 400px;
+
+ }
 }
