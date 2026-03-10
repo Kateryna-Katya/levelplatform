@@ -758,7 +758,9 @@ border: 1px solid rgba(255, 255, 255, 0.06);
  }
 }
 /* Faq */
-
+.faq-container{
+    padding-bottom: 50px;
+}
 .faq-acc {
     display: flex;
     flex-direction: column;
@@ -857,6 +859,7 @@ font-family: "Inter", sans-serif;
     .faq-container{
         display: flex;
         gap: 64px;
+        padding-bottom: 80px;
            }
     .faq-acc {
     width: 800px;
@@ -876,4 +879,99 @@ font-family: "Inter", sans-serif;
 width: 800px;  
     }
 
+}
+/* Ready to climb? */
+.final-section{
+    background-image: url("/img/final/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.final-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 50px;
+}
+.final-subtitle{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: -0.1em;
+        text-align: center;
+        color: #f0f6ff;
+        margin-top: 20px;
+        margin-bottom: 30px;
+}
+.final-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.62857;
+        text-align: center;
+        color: #475569;
+        gap: 8px;
+        margin-bottom: 30px;
+}
+.final-two{
+        color: #94a3b8;
+}
+.final-three{
+    font-weight: 500;
+        line-height: 1.8;
+        color: #e2e8f0;
+}
+.final-cta{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+    
+            padding: 9px 20px;
+    width: 254px;
+        height: 37px;
+            border-radius: 12px;
+            border: 2px solid transparent;    
+            background:
+                linear-gradient(#020618, #020618) padding-box,
+                linear-gradient(90deg, #00c8ff 0%, #818cf8 50%, #a855f7 100%) border-box;
+    
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 1.42857;
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+                text-align: center;
+                color: #e2e8f0;
+}
+@media only screen and (min-width: 1440px) {
+ .final-section{
+    background-image: url("/img/final/desk.png");
+ }
+ .final-container{
+    padding: 60px 357px;
+ }
+ .final-label{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .final-subtitle{
+font-size: 64px;
+ }
+ .final-wrapper{
+    font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 48px;
+ }
+ .final-cta{
+width: 280px;
+    height: 60px;
+ }
 }
