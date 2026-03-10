@@ -1,0 +1,119 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 0;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 19px 14px;
+    background-image: url("/img/cookies/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 16px;
+    z-index: 1000;
+width: 357px;
+    height: 294px;
+    display: none;
+}
+
+.popup-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.cookie-class {
+font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #d1d5dc;
+
+}
+
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+width: 257px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-accept {
+border: 1px solid #00c8ff;
+    border-radius: 12px;
+    padding: 1px;
+    width: 257px;
+    height: 32px;
+    background: #005066;
+      box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.71429;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #00c8ff;
+
+}
+
+.btn-decline {
+border: 1px solid #00c8ff;
+    border-radius: 12px;
+    padding: 1px;
+    width: 257px;
+    height: 32px;
+font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.71429;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #00c8ff;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .cookie-popup {
+        width: 896px;
+            height: 294px;
+        padding: 80px 33px;
+background-image: url("/img/cookies/desk.png");
+    }
+
+    .popup-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .cookie-class {
+font-size: 22px;
+        width: 531px;
+    }
+
+    .cookie-buttons {
+        margin-top: 0;
+        margin-right: 0;
+    }
+.btn-accept{
+    padding: 11px;
+    width: 260px;
+        height: 44px;
+}
+.btn-decline{
+    padding: 11px;
+    width: 260px;
+        height: 44px;
+}
+}
