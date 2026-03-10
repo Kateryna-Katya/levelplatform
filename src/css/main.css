@@ -342,3 +342,159 @@ margin-top: 200px;
     width: 389px;
   }
 }
+/* Progression */
+.progression-container{
+    padding: 53px 24px 74px;
+}
+.progression-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 16px;
+}
+.progression-text{
+    font-size: 14px;
+        line-height: 1.92676;
+        color: #94a3b8;
+
+}
+.progression-wrap {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.progression-chart {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progression-col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.progression-row {
+    display: grid;
+    grid-template-columns: 90px 1fr 12px;
+    align-items: center;
+    gap: 12px;
+}
+
+.progression-label {
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.progression-track {
+    position: relative;
+    height: 28px;
+background: rgba(255, 255, 255, 0.03);
+    overflow: hidden;
+}
+
+.progression-fill {
+   
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 0;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    overflow: hidden;
+                font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 1.33333;
+}
+
+.fill-1 {
+    background: linear-gradient(90deg,
+            rgba(124, 58, 237, 0.2) 0%,
+            rgba(124, 58, 237, 0.53) 100%);
+
+                color: #7c3aed;
+}
+
+.fill-2 {
+    background: linear-gradient(90deg,
+            rgba(168, 85, 247, 0.2) 0%,
+            rgba(168, 85, 247, 0.53) 100%);
+            color: #a855f7;
+}
+
+.fill-3 {
+    background: linear-gradient(90deg,
+            rgba(129, 140, 248, 0.2) 0%,
+            rgba(129, 140, 248, 0.53) 100%);
+            color: #818cf8;
+}
+
+.fill-4 {
+    background: linear-gradient(90deg,
+            rgba(0, 200, 255, 0.2) 0%,
+            rgba(0, 200, 255, 0.53) 100%);
+            color: #00c8ff;
+}
+
+.fill-5 {
+    background: linear-gradient(90deg,
+            rgba(56, 189, 248, 0.2) 0%,
+            rgba(56, 189, 248, 0.53) 100%);
+            color: #38bdf8;
+}
+
+.progression-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #8e3bff;
+    box-shadow: 0 0 8px rgba(142, 59, 255, 0.7);
+    opacity: 0.4;
+}
+
+.progression-row:nth-child(3) .progression-dot {
+    background: #7d84ff;
+    box-shadow: 0 0 8px rgba(125, 132, 255, 0.7);
+}
+
+.progression-row:nth-child(4) .progression-dot,
+.progression-row:nth-child(5) .progression-dot {
+    background: #18cfff;
+    box-shadow: 0 0 8px rgba(24, 207, 255, 0.7);
+}
+
+.progression-note {
+font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33333;
+    letter-spacing: 0.1em;
+    color: #334155;
+    margin-top: 24px;
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+ .progression-container{
+    padding: 112px 83px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .progression-wrapper-text{
+    width: 620px;
+ }
+ .progression-wrapper{
+    width: 550px;
+ }
+ .progression-wrap{
+    width: 584px;
+ }
+}
