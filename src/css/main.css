@@ -630,3 +630,88 @@ background: linear-gradient(180deg, #0a0f1e 0%, #080c14 100%);
         height: 210px;
    }
 }
+/* Advanced Mechanics */
+.mechanic-text{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.mechanic-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+.mechanic-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.mechanic-icon{
+    border-radius: 33554400px;
+        width: 6px;
+        height: 6px;
+}
+.m1{
+    box-shadow: 0 0 6px 0 #00c8ff;
+        background: #00c8ff;
+}
+.m2{
+    box-shadow: 0 0 6px 0 #38bdf8;
+        background: #38bdf8;
+}
+.m3{
+    box-shadow: 0 0 6px 0 #818cf8;
+        background: #818cf8;
+}
+.m4{
+    box-shadow: 0 0 6px 0 #a855f7;
+        background: #a855f7;
+}
+.m5{
+    box-shadow: 0 0 6px 0 #c084fc;
+        background: #c084fc;
+}
+.mechanic-text-wrap-two{
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.54286;
+        color: #64748b;
+}
+.mechanic-text-wrap-two p:first-child{
+line-height: 1.54286;
+    color: #94a3b8;
+}
+.mechanic-text-wrap-two p:last-child{
+    line-height: 1.54286;
+        color: #00c8ff;
+}
+.mechanic-img{
+    width: 296px;
+        height: 202px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+}
+@media only screen and (min-width: 1440px) {
+    .mechanic-container{
+        padding: 45px 170px;
+        display: flex;
+        align-items: center;
+        gap: 126px;
+    }
+  .mechanic-wrapper{
+    width: 584px;
+  }
+  .mechanic-img{
+width: 366px;
+    height: 306px;
+    margin-top: 0;
+  }
+}
